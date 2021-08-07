@@ -67,7 +67,7 @@ WantedBy=multi-user.target
 		mkdir -p /etc/filebrowser
 		cat >/etc/filebrowser/filebrowser.json <<-EOF
 {
-    "port": 9184,
+    "port": 80,
     "baseURL": "",
     "address": "",
     "log": "stdout",
