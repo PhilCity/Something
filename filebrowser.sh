@@ -39,7 +39,7 @@ fi
 install() {
 	$cmd install wget -y
 	ver=$(curl -s https://api.github.com/repos/filebrowser/filebrowser/releases/latest | grep 'tag_name' | cut -d\" -f4)
-	Filebrowser_download_link="https://hub.fastgit.org/filebrowser/filebrowser/releases/download/$ver/$filebrowser"
+	Filebrowser_download_link="https://a.130513.xyz/https://github.com/filebrowser/filebrowser/releases/download/$ver/$filebrowser"
 	mkdir -p /tmp/Filebrowser
 	if ! wget --no-check-certificate --no-cache -O "/tmp/Filebrowser.tar.gz" $Filebrowser_download_link; then
 		echo -e "$red 下载 Filebrowser 失败！$none" && exit 1
