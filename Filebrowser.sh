@@ -91,7 +91,7 @@ Download_filebrowser(){
 	filebrowser="linux-386-filebrowser.tar.gz"
     elif [[ $bit == "x86_64" ]]; then
 	filebrowser="linux-386-filebrowser.tar.gz"
-    elif [[ $sys_bit == "aarch64" ]]; then
+    elif [[ $bit == "aarch64" ]]; then
 	filebrowser="linux-arm64-filebrowser.tar.gz"
 	else
 		echo -e "${Error_font_prefix}[错误]${Font_suffix} 不支持 ${bit} !" && exit 1
