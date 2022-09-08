@@ -29,7 +29,7 @@ fi
 if [[ $sys_bit == "i386" || $sys_bit == "i686" ]]; then
 	filebrowser="linux-386-filebrowser.tar.gz"
 elif [[ $sys_bit == "x86_64" ]]; then
-	filebrowser="linux-386-filebrowser.tar.gz"
+	filebrowser="linux-amd64-filebrowser.tar.gz"
 elif [[ $sys_bit == "aarch64" ]]; then
 	filebrowser="linux-arm64-filebrowser.tar.gz"
 else
